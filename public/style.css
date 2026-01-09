@@ -21,13 +21,13 @@ height:100px;
   }
   #navibereich {
   position:fixed;
-top: 100px;
+top: 150px;
 left:0;
 border: 1px solid #ccc;
 background-color:rgb(152,245,255);
 width:200px;
 min-height:300px;
-z-index:2;
+z-index:3;
 }
 #textbereich {
 
@@ -35,19 +35,19 @@ z-index:2;
 left:0;
 right:0;
 top:100px;
-padding-left:210px;
-padding-right:210px;
+padding-left:200px;
+padding-right:200px;
 padding-top:20px;
 padding-bottom:60px;
 border: 1px solid #ccc;
 height:100%;
 overflow-y: auto;
-background-color:rgba(152,245,255,0.5);
+background-color:rgba(0,0,139);
 }
 #newsbereich {
   position:fixed;            ! Position des Newsbereichs immer rechts! - FIX;
-  right:0px;                 ! Rechtsausrichtung;
-  top: 100px;                ! Position unterhalb des Kopfbereiches;
+  right: 10px;px;                 ! Rechtsausrichtung;
+  top: 150px;                ! Position unterhalb des Kopfbereiches;
   border: 1px solid #ccc;    ! Rahmenart und -farbe;
   background-color:rgb(152,245,255);   ! Hintergrundfarbe;
   width:200px;               ! Breite des Newsbereichs;
@@ -57,12 +57,16 @@ background-color:rgba(152,245,255,0.5);
 #fussbereich {
 
  position:fixed;              ! Position;
- bottom:0;                    ! Unten;
+ bottom: 2px;;                    ! Unten;
  left:0;                      ! links;
  border: 1px solid #ccc;      ! Rahmen;
- width: 100%;                 ! Breite;
+ width: 200%;                 ! Breite;
  background-color:rgb(152,245,255);      ! Farbe;
  height:50px;                 ! Höhe;
  z-index:2;                   ! überlagert;  
 } 
+/*  Höhe des Contentbereichs festlegen */                    
+.content-block {
+  padding-bottom: 1000px;
+}
 
