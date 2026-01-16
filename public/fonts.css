@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+<head>
+    <title>Website-Projekt</title>
+    <meta name="AUTHOR" content="Andre">
+    <meta name="COPYRIGHT" content="Copyright (c) 2025 by Andre Lausberg">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <meta name="DESCRIPTION" content="Dies ist die Bewerbungshomepage von Andre Lausberg">
+    <meta name ="KEYWORDS" content ="Bewerbungshomepage, Andre Lausberg, Bewerbung">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+      <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+     <!-- import the webpage's fonts -->
+    <link rel="stylesheet" href="/fonts.css" />
+  </head>

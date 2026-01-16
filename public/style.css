@@ -42,7 +42,7 @@ padding-bottom:60px;
 border: 1px solid #ccc;
 height:100%;
 overflow-y: auto;
-background-color:rgba(0,0,139);
+background-color:rgba(122,197,205);
 }
 #newsbereich {
   position:fixed;            ! Position des Newsbereichs immer rechts! - FIX;
@@ -68,5 +68,12 @@ background-color:rgba(0,0,139);
 /*  Höhe des Contentbereichs festlegen */                    
 .content-block {
   padding-bottom: 1000px;
+}
+p {
+font-family: 'Montserrat', sans-serif;  ! Festlegung der Schriftart;
+font-style:normal;                      ! Festlegung des Schrifttyps;
+font-size:11pt;                         ! Festlegung des Schriftgröße;
+font-weight:400;                        ! Festlegung der Fettschrift (400 = normal, 700 = fett);
+color:#000000;                          ! Festlegung des Schriftfarbe, hier Schwarz;
 }
 
