@@ -76,4 +76,43 @@ font-size:11pt;                         ! Festlegung des Schriftgröße;
 font-weight:400;                        ! Festlegung der Fettschrift (400 = normal, 700 = fett);
 color:#000000;                          ! Festlegung des Schriftfarbe, hier Schwarz;
 }
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.1 Transitional//EN">
+<html>
+  <head>
+    <title>Bewerbungshomepage</title>
+    <meta name="AUTHOR" content="Andre Lausberg">
+    <meta name="COPYRIGHT" content="Copyright (c) 2026 by Andre Lausberg">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <meta name="DESCRIPTION" content="Dies ist die Bewerbungshomepage von Andre Lausberg">
+    <meta name ="KEYWORDS" content ="Bewerbungshomepage, Andre Lausberg, Bewerbung">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <!-- import the webpage's fonts -->
+    <link rel="stylesheet" href="/fonts.css" />
+  </head>
+  <body>
+	<div id="kopfbereich">
+              <p class=“header-title“>Bewerbung von Andre Lausberg</p>
+	</div> <!-- Ende kopfbereich -->
+	<div id="navibereich"></div> <!-- Ende navibereich -->
+	<div id="textbereich">
+            <div class="content-block">
+	       <p class="title">Dies ist eine Überschrift</p> 
+	       <p>Dies ist ein Beispieltext</p>
+           </div><!-- Ende content-block -->
+	</div> <!-- Ende textbereich -->
+	<div id="newsbereich"></div> <!-- Ende newsbereich -->
+	<div id="fussbereich"></div> <!-- Ende fussbereich -->
+  </body>
+</html>
+.header-title {
+font-family:‘Montserrat’, sans-serif;   ! Festlegung der Schriftart;
+font-size:24pt;				! Festlegung des Schriftgröße;
+font-weight:700;			! Festlegung des Fettschrift, hier können Sie auch bold angeben;
+text-align:center;			! Schriftausrichtung, möglich ist left | center | right;
+}
 
