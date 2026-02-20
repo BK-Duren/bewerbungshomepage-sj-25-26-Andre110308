@@ -75,7 +75,7 @@ background-color:rgba(122,197,205);
 /*  ----------------------------------------- */
 
 p {
-font-family: Garamond, Verdana, Geneva, Lucida, Avantgarde, Arial; ! Festlegung der Schriftart;
+font-family: 'Montserrat', sans-serif;                             ! Festlegung der Schriftart;
 font-style:normal;                                                 ! Festlegung des Schrifttyps;
 font-size:11pt;                                                    ! Festlegung des Schriftgröße;
 font-weight:normal;                                                ! Festlegung der Fettschrift;
